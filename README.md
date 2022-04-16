@@ -23,9 +23,42 @@ IDE. También se puede ejecutar compilando el código y especificando la clase q
 Si algunos de los temas presentados en este proyecto no terminan de quedar claros, recomiendo visitar el canal de
 [YouTube de Daniel](https://www.youtube.com/c/rockthejvm) o comprar algunos de sus cursos.
 
-## Hoja de ruta
+## Guía de contenido
 
-Traducir las lecciones al castellano y añadir más ejemplos y documentación
+El proyecto está dividido en 5 bloques:
+ - Básico:
+   - Expresiones
+   - Funciones - Ejercicios
+   - Tipos
+   - Recursión - Ejercicios
+   - CBN (Call-By-Name) CBV (Call-By-Value)
+   - Argumentos por defecto
+   - Operaciones string
+ - Objetos:
+   - Orientación a objetos básica (OOBásico)
+   - Notaciones
+   - Objetos
+   - Herencia
+   - Genéricos
+   - Clases anónimas
+   - Case clases
+   - Enumeraciones (Scala 3)
+   - Excepciones
+   - package
+ - Funciones:
+   - ¿Qué es una función?
+   - Funciones anónimas
+   - Funciones de alto orden (HOF - High Order Function) y curries
+   - Map, flatMap, filter y for-comprehension
+   - Colecciones: Seq, List, Array y Vector
+   - Tuples y mapas
+   - Opciones
+   - Manejando errores
+ - Patrones:
+   - Pattern Matching
+   - Todos los patrones
+   - Patrones donde no te los esperas
+   - Sintaxis sin llaves {} (Scala 3)
 
 ## Contribución
 
