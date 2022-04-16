@@ -2,6 +2,8 @@
 package lecciones.parte2Objetos
 
 /**
+ * Lección 5 de la parte 2.
+ * 
  * Scala nos proporciona dos formas de extender componentes abstractos:
  *   - clases abstractas
  *   - traits

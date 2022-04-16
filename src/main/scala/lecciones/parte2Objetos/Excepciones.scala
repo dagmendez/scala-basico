@@ -1,7 +1,7 @@
 package lecciones.parte2Objetos
 
 /**
- * Lección 9 de la parte 2.
+ * Lección 10 de la parte 2.
  * 
  * Scala permite gestionar las excepciones asignándolas a un valor.
  * Esto nos permite continuar con la ejecución independientemente de que se produzca una excepción.

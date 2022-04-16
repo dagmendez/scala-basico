@@ -1,7 +1,7 @@
 package lecciones.parte2Objetos
 
 /**
- * Lección 7 de la parte 2.
+ * Lección 8 de la parte 2.
  *
  * Las case class ofrecen una serie de beneficios que las hacen muy atractivas.
  * Estos beneficios se obtienen al generarse código invisible para nosotros de forma automática.

@@ -34,17 +34,18 @@ El proyecto está dividido en 5 bloques:
    - [CBN (Call-By-Name) CBV (Call-By-Value)](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/CBNvsCBV.scala)
    - [Argumentos por defecto](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/ArgumentosPorDefecto.scala)
    - [Operaciones string](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/OperacionesStrings.scala)
- - Objetos:
-   - Orientación a objetos básica (OOBásico)
-   - Notaciones
-   - Objetos
-   - Herencia
-   - Genéricos
-   - Clases anónimas
-   - Case clases
-   - Enumeraciones (Scala 3)
-   - Excepciones
-   - Paquetes e imports
+ - [Objetos]():
+   - [Orientación a objetos básica (OOBásico)](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/OOBasico.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/OOBasicoEnunciado.scala)
+   - [Notaciones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Notaciones.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/NotacionesEnunciado.scala)
+   - [Objetos](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Objetos.scala)
+   - [Herencia](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Herencia.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/ColeccionEnunciado.scala)
+   - [Tipos de datos abstractos](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/TiposDeDatosAbstractos.scala)
+   - [Genéricos](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Genericos.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/ColeccionGenericaEnunciado.scala)
+   - [Clases anónimas](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/ClasesAnonimas.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/ColeccionExtendidaEnunciado.scala)
+   - [Case clases](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/CaseClasses.scala)
+   - [Enumeraciones (Scala 3)](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Enumeraciones.scala)
+   - [Excepciones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Excepciones.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/ExcepcionesEnunciado.scala)
+   - [Paquetes e imports](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/PaquetesEImports.scala)
  - Funciones:
    - ¿Qué es una función?
    - Funciones anónimas

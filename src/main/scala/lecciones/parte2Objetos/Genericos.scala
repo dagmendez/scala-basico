@@ -1,7 +1,7 @@
 package lecciones.parte2Objetos
 
 /**
- * Lección 5 de la parte 2.
+ * Lección 6 de la parte 2.
  * 
  * El uso de genéricos en Scala permite definir clases y métodos que se pueden reutilizar para tipos distintos.
  * El uso de genéricos es extensivo en el lenguaje base de Scala y en sus librerías.

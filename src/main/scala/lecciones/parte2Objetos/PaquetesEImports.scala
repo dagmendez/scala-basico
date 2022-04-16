@@ -4,7 +4,7 @@ package lecciones.parte2Objetos
 import lecciones.parte1Basico.Tipos.unaCadena
 
 /**
- * Lección 10 de la parte 2.
+ * Lección 11 de la parte 2.
  */
 object PaquetesEImports extends App {
 

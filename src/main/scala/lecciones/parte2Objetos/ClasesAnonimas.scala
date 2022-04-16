@@ -1,7 +1,7 @@
 package lecciones.parte2Objetos
 
 /**
- * Lección 6 de la parte 2.
+ * Lección 7 de la parte 2.
  *
  * Scala, como otros muchos lenguajes de programación, incluye las funciones anónimas, conocidas como lambda.
  * Además de las lambda, Scala también permite generar clases anónimas (¿lambda classes?)

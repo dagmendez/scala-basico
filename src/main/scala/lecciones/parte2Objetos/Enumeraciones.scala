@@ -1,7 +1,7 @@
 package lecciones.parte2Objetos
 
 /**
- * Lección 8 de la parte 2.
+ * Lección 9 de la parte 2.
  *
  * Las enumeraciones se construyen utilizando la palabra "enum".
  * Desde un punto de vista formal, las enumeraciones son "sealed class".
