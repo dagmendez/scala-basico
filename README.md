@@ -26,14 +26,14 @@ Si algunos de los temas presentados en este proyecto no terminan de quedar claro
 ## Guía de contenido
 
 El proyecto está dividido en 5 bloques:
- - Básico:
-   - Expresiones
-   - Funciones - Ejercicios
-   - Tipos
-   - Recursión - Ejercicios
-   - CBN (Call-By-Name) CBV (Call-By-Value)
-   - Argumentos por defecto
-   - Operaciones string
+ - [Básico](https://github.com/dagmendez/scala-basico/tree/main/src/main/scala/lecciones/parte1Basico):
+   - [Expresiones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/Expresiones.scala)
+   - [Funciones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/Funciones.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte1Basico/FuncionesEnunciado.scala)
+   - [Tipos](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/Tipos.scala)
+   - [Recursión](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/Recursion.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte1Basico/RecursionEnunciado.scala)
+   - [CBN (Call-By-Name) CBV (Call-By-Value)](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/CBNvsCBV.scala)
+   - [Argumentos por defecto](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/ArgumentosPorDefecto.scala)
+   - [Operaciones string](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte1Basico/OperacionesStrings.scala)
  - Objetos:
    - Orientación a objetos básica (OOBásico)
    - Notaciones
