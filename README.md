@@ -44,7 +44,7 @@ El proyecto está dividido en 5 bloques:
    - Case clases
    - Enumeraciones (Scala 3)
    - Excepciones
-   - package
+   - Paquetes e imports
  - Funciones:
    - ¿Qué es una función?
    - Funciones anónimas
