@@ -18,8 +18,8 @@ object CBNvsCBV extends App {
    * @return Imprime por pantalla dos veces el mismo valor del parámetro x.
    */
   def llamadaPorValor(x: Long): Unit = {
-    println(s"by value $x")
-    println(s"by value $x")
+    println(s"por valor $x")
+    println(s"por valor $x")
   }
 
   // Imprime dos veces el mismo valor
@@ -35,8 +35,8 @@ object CBNvsCBV extends App {
    * @return Imprime por pantalla dos veces el valor de X correspondiente al momento en el tiempo de ejecución del hilo.
    */
   def llamadaPorNombre(x: => Long): Unit = {
-    println(s"by name $x")
-    println(s"by name $x")
+    println(s"por nombre $x")
+    println(s"por nombre $x")
   }
 
   // Imprime un valor diferente cada vez

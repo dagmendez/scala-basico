@@ -8,7 +8,7 @@ package lecciones.parte1Basico
  */
 object OperacionesStrings extends App {
 
-  val str: String = "Hola, Yo estoy aprendiendo Scala"
+  val str: String = "Hola, estoy aprendiendo Scala"
 
   /**
    * Scala puede utilizar todos los métodos disponibles en Java para trabajar con cadenas (String).

@@ -22,9 +22,9 @@ object ArgumentosPorDefecto extends App {
    */
   def factorialRecursivoDeCola(numero: Int): Int = {
     @tailrec
-    def calculoConAcumulador(num: Int, acumulador: Int): Int = {
-      if num <= 1 then acumulador
-      else calculoConAcumulador(num - 1, num * acumulador)
+    def calculoConAcumulador(número: Int, acumulador: Int): Int = {
+      if número <= 1 then acumulador
+      else calculoConAcumulador(número - 1, número * acumulador)
     }
 
     calculoConAcumulador(numero, 1)

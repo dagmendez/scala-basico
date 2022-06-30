@@ -53,17 +53,14 @@ object Recursion extends App {
      * @return el valor final del acumulador.
      */
     @tailrec
-    def factorialHelper(x: Int, accumulator: BigInt): BigInt = {
+    def factorialAyudante(x: Int, accumulator: BigInt): BigInt = {
       if (x <= 1) accumulator
-      else factorialHelper(x - 1, x * accumulator)
+      else factorialAyudante(x - 1, x * accumulator)
     }
     // Llamamos a la función auxiliar en la última línea del bloque de código de la función principal
-    factorialHelper(i, 1)
+    factorialAyudante(i, 1)
   }
   // Ahora ya no falla la llamada con número grandes
   println(factorialRecursivoDeCola(5000))
-
-  /**
-   * Ejercicios disponibles en [[ejercicios.parte1Basico.RecursionEnunciado]]
-   */
+  
 }

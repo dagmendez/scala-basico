@@ -36,9 +36,9 @@ object Funciones extends App {
   // Tipos informados en el lado derecho del igual
   val unaFunción_v2 = (a: String, b: Int) => s"$a $b"
 
-  println(unaFunción("hello", 0))
-  println(unaFunción_v1("hello", 1))
-  println(unaFunción_v2("hello", 2))
+  println(unaFunción("hola", 0))
+  println(unaFunción_v1("hola", 1))
+  println(unaFunción_v2("hola", 2))
 
   /**
    * Las funciones también se pueden definir sin parámetros de entrada.
@@ -72,9 +72,9 @@ object Funciones extends App {
     else s + unaFunciónRecursiva(s, n - 1)
   }
 
-  println(unaFunciónRecursiva("hello", 0))
-  println(unaFunciónRecursiva_v1("hello", 1))
-  println(unaFunciónRecursiva_v2("hello", 2))
+  println(unaFunciónRecursiva("hola", 0))
+  println(unaFunciónRecursiva_v1("hola", 1))
+  println(unaFunciónRecursiva_v2("hola", 2))
 
   /**
    * Las funciones también pueden contener efectos ("side effects").
@@ -87,9 +87,9 @@ object Funciones extends App {
   val unaFunciónConEfectos_v1: String => Unit = s => println(s)
   val unaFunciónConEfectos_v2 = (s: String) => println(s)
 
-  unaFunciónConEfectos("hello World!")
-  unaFunciónConEfectos_v1("hello World!")
-  unaFunciónConEfectos_v2("hello World!")
+  unaFunciónConEfectos("¡hola mundo!")
+  unaFunciónConEfectos_v1("¡hola mundo!")
+  unaFunciónConEfectos_v2("¡hola mundo!")
 
   /**
    * Las funciones también permiten definir otras funciones dentro de su bloque de código.
@@ -111,9 +111,5 @@ object Funciones extends App {
   println(unaFunciónGrande(0))
   println(unaFunciónGrande_v1(1))
   println(unaFunciónGrande_v2(2))
-
-  /**
-   * Ejercicios disponibles en [[ejercicios.parte1Basico.FuncionesEnunciado]]
-   */
-
+  
 }
