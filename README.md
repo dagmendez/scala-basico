@@ -56,10 +56,10 @@ El proyecto está dividido en 5 bloques:
    - [Opciones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/Opciones.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/OpcionesEnunciado.scala)
    - [Manejando errores](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/ManejandoErrores.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/ManejandoErroresEnunciado.scala)
  - Patrones:
-   - Pattern Matching
-   - Todos los patrones
-   - Patrones donde no te los esperas
-   - Sintaxis sin llaves {} (Scala 3)
+   - [Pattern Matching](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte4Patrones/PatternMatching.scala)
+   - [Todos los patrones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte4Patrones/TodosLosPatrones.scala)
+   - [Patrones donde no te los esperas](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte4Patrones/PatronesDondeNoLosEsperas.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte4Patrones/PatternMatchingEnunciado.scala)
+   - [Sintaxis sin llaves {} (Scala 3)](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte4Patrones/SintaxisSinLlaves.scala)
 
 ## Contribución
 
@@ -74,4 +74,4 @@ sido realizados por:
 
 ## Situación del proyecto
 
-Trabajo en curso.
+Versión estable lista para su uso académico.
