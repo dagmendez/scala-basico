@@ -31,18 +31,18 @@ object Enumeraciones extends App {
 
     // Métodos
     def abrirDocumento(): Unit = {
-      if (this == LECTURA) println("opening document")
-      else println("reading not allowed")
+      if (this == LECTURA) println("abriendo documento")
+      else println("lectura no permitida")
     }
 
     def guardarDocumento(): Unit = {
-      if (this == ESCRITURA) println("saving document")
-      else println("saving not allowed")
+      if (this == ESCRITURA) println("guardando documento")
+      else println("guardado no permitido")
     }
 
     def ejecutar(): Unit = {
-      if (this == EJECUCIÓN) println("running")
-      else println("do not have rights to run")
+      if (this == EJECUCIÓN) println("ejecutando")
+      else println("ejecución no permitida")
     }
   }
 

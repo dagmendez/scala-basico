@@ -48,8 +48,8 @@ object Genericos extends App {
    */
   class MiMapa[Clave, Valor](val valores: Map[Clave, Valor] = Map[Clave, Valor]()) {
     // Recordatorio de que Scala permite sobrecargar métodos con el mismo nombre y diferentes parámetros
-    def añadirValores(tuple2: (Clave, Valor)): MiMapa[Clave, Valor] = {
-      new MiMapa[Clave, Valor](valores + (tuple2._1 -> tuple2._2))
+    def añadirValores(tupla: (Clave, Valor)): MiMapa[Clave, Valor] = {
+      new MiMapa[Clave, Valor](valores + (tupla._1 -> tupla._2))
     }
 
     def añadirValores(mapa: Map[Clave, Valor]): MiMapa[Clave, Valor] = {

@@ -15,9 +15,9 @@ object Herencia extends App {
   class Persona(val nombre: String, val edad: Short) {
     /**
      * Este constructor auxiliar permite generar instancias de la clase Persona con un solo parámetro.
-     * @param name Nombre de la persona
+     * @param nombre Nombre de la persona
      */
-    def this(name: String) = this(name, 0)
+    def this(nombre: String) = this(nombre, 0)
     /**
      * Este constructor auxiliar permite generar instancias de la clase Persona sin parámetros.
      * Los dos parámetros del constructor son valores por defecto.

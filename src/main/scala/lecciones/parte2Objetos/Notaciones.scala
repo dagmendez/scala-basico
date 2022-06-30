@@ -151,7 +151,7 @@ object Notaciones extends App {
   println(maría.edad)
   println((+maría).edad)
 
-  println((maría + "the Rock Star!") ())
+  println((maría + "la estrella del rock!") ())
 
   println(maría(4))
 

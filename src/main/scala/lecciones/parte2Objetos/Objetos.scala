@@ -17,9 +17,9 @@ object Objetos extends App {
     /**
      * La funcionalidad estática (static) son los valores y los métodos del objeto que no reciben parámetros.
      */
-    val NUM_OJOS: Short = 2
-    val NUM_OREJAS: Short = 2
-    val NUM_NARIZ: Short = 1
+    val NUMERO_OJOS: Short = 2
+    val NUMERO_OREJAS: Short = 2
+    val NUMERO_NARIZ: Short = 1
     def puedeVolar: Boolean = false
     def puedeCaminar: Boolean = true
 
@@ -34,7 +34,7 @@ object Objetos extends App {
      * @param padre instancia de la clase persona con los datos de la madre
      * @return nueva instancia de la clase Persona.
      */
-    def from(nombre: String, madre: Persona, padre: Persona): Persona = {
+    def aPartirDe(nombre: String, madre: Persona, padre: Persona): Persona = {
       // En España esta es la tradición (nombre + primer apellido padre + primer apellido madre)
       // Aunque ahora se puede invertir el orden y utilizar el apellido de la madre primero
       val apellido_paterno = padre.apellidos.head
@@ -45,7 +45,7 @@ object Objetos extends App {
      * La terminología más utilizada para el patrón factoría es la de un método apply en el objeto.
      * Para no copiar código, vamos a llamar al método from.
      */
-    def apply(nombre: String, madre: Persona, padre: Persona): Persona = from(nombre, padre, madre)
+    def apply(nombre: String, madre: Persona, padre: Persona): Persona = aPartirDe(nombre, padre, madre)
 
   }
 
@@ -61,9 +61,9 @@ object Objetos extends App {
   }
 
   //Llamadas a los atributos dentro del objeto Singleton
-  println(Persona.NUM_OJOS)
-  println(Persona.NUM_OREJAS)
-  println(Persona.NUM_NARIZ)
+  println(Persona.NUMERO_OJOS)
+  println(Persona.NUMERO_OREJAS)
+  println(Persona.NUMERO_NARIZ)
   println(Persona.puedeVolar)
   println(Persona.puedeCaminar)
 
@@ -73,7 +73,7 @@ object Objetos extends App {
 
   // Generamos un hijo utilizando el patrón factoría del objeto acompañante
   // Usando from
-  val miguel_from = Persona.from("Miguel", padre, madre)
+  val miguel_from = Persona.aPartirDe("Miguel", padre, madre)
   // Usando apply
   val miguel_apply = Persona.apply("Miguel", padre, madre)
   // Usando apply de la forma en la que se usa en Scala
