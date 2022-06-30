@@ -47,14 +47,14 @@ El proyecto está dividido en 5 bloques:
    - [Excepciones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/Excepciones.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte2Objetos/ExcepcionesEnunciado.scala)
    - [Paquetes e imports](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte2Objetos/PaquetesEImports.scala)
  - Funciones:
-   - ¿Qué es una función?
-   - Funciones anónimas
-   - Funciones de alto orden (HOF - High Order Function) y curries
-   - Map, flatMap, filter y for-comprehension
-   - Colecciones: Seq, List, Array y Vector
-   - Tuples y mapas
-   - Opciones
-   - Manejando errores
+   - [¿Qué es una función?](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/QueEsUnaFuncion.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/ColeccionFuncionalEnunciado.scala)
+   - [Funciones anónimas](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/FuncionesAnonimas.scala)
+   - [Funciones de alto orden (HOF - High Order Function) y curries](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/HOFsYCurries.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/HOFsYCurriesEnunciado.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/ColeccionFuncionalExtendidaEnunciado.scala)
+   - [Map, flatMap, filter y for-comprehension](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/MapFlatMapFilterFor.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/QuizasEnunciado.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/MapFlatMapFilterForEnunciado.scala)
+   - [Colecciones: Seq, List, Array y Vector](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/Colecciones.scala)
+   - [Tuplas y mapas](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/TuplasYMapas.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/RedSocialConMapasEnunciado.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/RedSocialModelizadaEnunciado.scala)
+   - [Opciones](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/Opciones.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/OpcionesEnunciado.scala)
+   - [Manejando errores](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/lecciones/parte3Funciones/ManejandoErrores.scala) - [Ejercicios](https://github.com/dagmendez/scala-basico/blob/main/src/main/scala/ejercicios/parte3Funciones/ManejandoErroresEnunciado.scala)
  - Patrones:
    - Pattern Matching
    - Todos los patrones
